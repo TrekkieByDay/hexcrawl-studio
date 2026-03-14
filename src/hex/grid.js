@@ -170,6 +170,86 @@ export class HexGrid {
     };
   }
 
+  // ── ASCII output ────────────────────────────────────────────────
+
+  /**
+   * Render the grid as an ASCII hex map.
+   * Values are laid out on a staggered grid based on axial coordinates.
+   * An optional transform function can convert stored values before display
+   * (e.g., biome codes to ASCII art symbols).
+   *
+   * @param {object} [opts]
+   * @param {function} [opts.transform] - (value, index) => string to display
+   * @param {number} [opts.cellWidth=4] - Character width per cell
+   * @param {boolean} [opts.showDetails=false] - Append per-hex coordinate details
+   * @returns {string}
+   */
+  toString({ transform, cellWidth = 4, showDetails = false } = {}) {
+    if (this._hexes.size === 0) return 'Empty HexGrid';
+
+    const fmt = (val, idx) => {
+      const display = transform ? transform(val, idx) : String(val ?? '.');
+      return display.slice(0, cellWidth).padEnd(cellWidth);
+    };
+
+    // Determine axial bounds
+    let minQ = Infinity, maxQ = -Infinity, minR = Infinity, maxR = -Infinity;
+    for (const [q, r] of this._axials) {
+      if (q < minQ) minQ = q;
+      if (q > maxQ) maxQ = q;
+      if (r < minR) minR = r;
+      if (r > maxR) maxR = r;
+    }
+
+    const cols = maxQ - minQ + 1;
+    const rows = maxR - minR + 1;
+    const empty = ' '.repeat(cellWidth);
+
+    // Build a 2D text grid (axial q -> column, axial r -> row)
+    const textGrid = Array.from({ length: rows }, () => Array(cols).fill(empty));
+
+    for (let i = 0; i < this.numHexes; i++) {
+      const [q, r] = this._axials[i];
+      textGrid[r - minR][q - minQ] = fmt(this._hexes.get(i), i);
+    }
+
+    // Stagger rows: offset each row by (r * cellWidth/2) spaces for hex layout
+    const lines = textGrid.map((row, r) => {
+      const indent = ' '.repeat(r * Math.floor(cellWidth / 2));
+      return indent + row.join('');
+    });
+
+    const header = `HexGrid: ${this.orientation}, radius=${this.radius}, hexes=${this.numHexes}`;
+    let output = header + '\n' + lines.join('\n');
+
+    if (showDetails) {
+      output += '\n' + '='.repeat(60) + '\n';
+      for (let i = 0; i < this.numHexes; i++) {
+        const ax = this._axials[i];
+        const cu = this._cubes[i];
+        const oe = this._offsetEven[i];
+        const val = this._hexes.get(i);
+        output += `Idx ${String(i).padStart(3)}: Ax(${ax[0]},${ax[1]}) Cu(${cu[0]},${cu[1]},${cu[2]}) OE(${oe[0]},${oe[1]}) Val: ${val}\n`;
+      }
+    }
+
+    return output;
+  }
+
+  /**
+   * Render using BIOMES_ART symbols for a visual terrain map.
+   * @param {object} artMap - Biome code -> ASCII art string (e.g. BIOMES_ART)
+   * @param {object} [opts] - Additional toString options
+   * @returns {string}
+   */
+  toArtString(artMap, opts = {}) {
+    return this.toString({
+      ...opts,
+      cellWidth: opts.cellWidth || 4,
+      transform: (val) => (artMap && artMap[val]) || String(val ?? '.'),
+    });
+  }
+
   // ── Serialization ──────────────────────────────────────────────
 
   toJSON() {
