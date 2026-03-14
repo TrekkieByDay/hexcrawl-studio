@@ -1,0 +1,205 @@
+{
+    "meta": {
+        "size": "200px",
+        "orientation": "FLAT",
+        "directory": "./assets/sprites-maatlock-drawn_200px/",
+        "font": "./assets/fonts/ariblk.ttf",
+        "index_font_color_black": [0, 0, 0, 255],
+        "index_font_color_white": [255, 255, 255, 255],
+        "index_type": "key",
+        "map_algorithm": "HFGE",
+        "textbox_font_size": 11,
+        "textbox_font_color_black": [0, 0, 0, 255],
+        "textbox_font_color_white": [255, 255, 255, 255],
+        "textbox_shaped_lines": [106, 120, 130],
+        "textbox_padding": 0,
+        "textbox_letter_spacing": 0
+    },
+    "indexing": {
+        "index_background_white": "BW_Maatlock_Overlay_Index-Background_1_W_FLAT_200px.png",
+        "index_background_black": "BW_Maatlock_Overlay_Index-Background_1_B_FLAT_200px.png"
+    },
+    "textbox": {
+        "textbox_background_white": "BW_Maatlock_Overlay_Textbox-Background-White_1_W_FLAT_200px.png",
+        "textbox_background_black": "BW_Maatlock_Overlay_Textbox-Background-Black_1_W_FLAT_200px.png"
+    },
+    "backfill": {
+        "backfill_white": "BW_Maatlock_Tile_Empty_1_W_FLAT_200px.png",
+        "backfill_black": "BW_Maatlock_Tile_Empty_1_B_FLAT_200px.png",
+        "backfill_transparent": "BW_Maatlock_Tile_Empty-Trans_1_W_FLAT_200px.png"
+    },
+    "icons": {
+        "P": "BW_Maatlock_Overlay_Note-Empty_1_W_FLAT_200px.png",
+        "PD": "BW_Maatlock_Overlay_Note-Empty_1_W_FLAT_200px.png",
+        "PF": "BW_Maatlock_Overlay_Icon-Tree-Decid-White_1_W_FLAT_200px.png",
+        "PS": "BW_Maatlock_Overlay_Icon-Tree-Swamp-White_1_W_FLAT_200px.png",
+        "F": "BW_Maatlock_Overlay_Icon-Tree-Decid-White_1_W_FLAT_200px.png",
+        "M": "BW_Maatlock_Overlay_Icon-Mountain-White_1_W_FLAT_200px.png",
+        "D": "BW_Maatlock_Overlay_Icon-Tree-Desert-White_1_W_FLAT_200px.png",
+        "S": "BW_Maatlock_Overlay_Icon-Tree-Swamp-White_1_W_FLAT_200px.png",
+        "H": "BW_Maatlock_Overlay_Icon-Hill-White_1_W_FLAT_200px.png",
+        "HD": "BW_Maatlock_Overlay_Icon-Hill-White_1_W_FLAT_200px.png",
+        "HF": "BW_Maatlock_Overlay_Icon-Tree-Decid-White_1_W_FLAT_200px.png",
+        "HS": "BW_Maatlock_Overlay_Icon-Tree-Swamp-White_1_W_FLAT_200px.png"
+    },
+    "tiles": {
+        "P": [
+            ["BW_Maatlock_Tile_Grass_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_1_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_2_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_3_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_4_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_5_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_6_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_7_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_8_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_9_W_FLAT_200px.png", 0.05],
+            ["BW_Maatlock_Tile_Grass-Sparse_10_W_FLAT_200px.png", 0.05]
+        ],
+        "PD": [
+            ["BW_Maatlock_Tile_Grass-Sparse_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_6_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_7_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_8_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_9_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Grass-Sparse_10_W_FLAT_200px.png", 0.1]
+        ],
+        "PF": [
+            ["BW_Maatlock_Tile_Trees-Sparse_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_6_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_7_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_8_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_9_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_10_W_FLAT_200px.png", 0.1]
+        ],
+        "PS": [
+            ["BW_Maatlock_Tile_Swamp-Sparse_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_6_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_7_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_8_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_9_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_10_W_FLAT_200px.png", 0.1]
+        ],
+        "F": [
+            ["BW_Maatlock_Tile_Trees-Dense_1_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_2_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_3_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_4_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_5_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_6_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_7_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_8_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_9_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Dense_10_W_FLAT_200px.png", 0.035],
+            ["BW_Maatlock_Tile_Trees-Med_1_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Trees-Med_2_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Trees-Med_3_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Lake-Trees_1_W_FLAT_200px.png", 0.02],
+            ["BW_Maatlock_Tile_Lake-Trees_2_W_FLAT_200px.png", 0.02],
+            ["BW_Maatlock_Tile_Lake-Trees_3_W_FLAT_200px.png", 0.01]
+        ],
+        "M": [
+            ["BW_Maatlock_Tile_Mountain_1_W_FLAT_200px.png", 0.33],
+            ["BW_Maatlock_Tile_Mountain_2_W_FLAT_200px.png", 0.33],
+            ["BW_Maatlock_Tile_Mountain_3_W_FLAT_200px.png", 0.34]
+        ],
+        "D": [
+            ["BW_Maatlock_Tile_Desert_1_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Desert_2_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Desert_3_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Desert_4_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Desert-Feature_1_W_FLAT_200px.png", 0.025],
+            ["BW_Maatlock_Tile_Desert-Feature_2_W_FLAT_200px.png", 0.025],
+            ["BW_Maatlock_Tile_Desert-Feature_3_W_FLAT_200px.png", 0.025],
+            ["BW_Maatlock_Tile_Desert-Feature_4_W_FLAT_200px.png", 0.025]
+        ],
+        "S": [
+            ["BW_Maatlock_Tile_Swamp_1_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Swamp_2_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Swamp_3_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Swamp_4_W_FLAT_200px.png", 0.225],
+            ["BW_Maatlock_Tile_Lake_1_W_FLAT_200px.png", 0.025],
+            ["BW_Maatlock_Tile_Lake_2_W_FLAT_200px.png", 0.025],
+            ["BW_Maatlock_Tile_Lake_3_W_FLAT_200px.png", 0.05]
+        ],
+        "H": [
+            ["BW_Maatlock_Tile_Hills_1_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_2_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_3_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_4_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_5_W_FLAT_200px.png", 0.2]
+        ],
+        "HD": [
+            ["BW_Maatlock_Tile_Hills_1_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_2_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_3_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_4_W_FLAT_200px.png", 0.2],
+            ["BW_Maatlock_Tile_Hills_5_W_FLAT_200px.png", 0.2]
+        ],
+        "HF": [
+            ["BW_Maatlock_Tile_Trees-Sparse_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_6_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_7_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_8_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_9_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Trees-Sparse_10_W_FLAT_200px.png", 0.1]
+        ],
+        "HS": [
+            ["BW_Maatlock_Tile_Swamp-Sparse_1_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_2_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_3_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_4_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_5_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_6_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_7_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_8_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_9_W_FLAT_200px.png", 0.1],
+            ["BW_Maatlock_Tile_Swamp-Sparse_10_W_FLAT_200px.png", 0.1]
+        ]
+    },
+    "overlay": {
+        "Risky": [["BW_Maatlock_Overlay_Label-Rating-Risky_1_W_FLAT_200px.png", 1]],
+        "Deadly": [["BW_Maatlock_Overlay_Label-Rating-Deadly_1_W_FLAT_200px.png", 1]],
+        "Safe": [["BW_Maatlock_Overlay_Label-Rating-Safe_1_W_FLAT_200px.png", 1]],
+        "Unsafe": [["BW_Maatlock_Overlay_Label-Rating-Unsafe_1_W_FLAT_200px.png", 1]],
+        "Small tower": [["BW_Maatlock_Overlay_POI-Outpost_1_W_FLAT_200px.png", 1]],
+        "Fortified keep": [["BW_Maatlock_Overlay_POI-Fortress_1_W_FLAT_200px.png", 1]],
+        "Natural landmark": [["BW_Maatlock_Overlay_POI-Outpost_1_W_FLAT_200px.png", 1]],
+        "Temple": [["BW_Maatlock_Overlay_POI-Ruins_1_W_FLAT_200px.png", 1]],
+        "Barrow mounds": [["BW_Maatlock_Overlay_POI-Outpost_1_W_FLAT_200px.png", 1]],
+        "Village": [["BW_Maatlock_Overlay_POI-City-Med_1_W_FLAT_200px.png", 1]],
+        "Town": [["BW_Maatlock_Overlay_POI-Small-POI_1_W_FLAT_200px.png", 1]],
+        "City/metropolis": [
+            ["BW_Maatlock_Overlay_POI-City-Large_1_W_FLAT_200px.png", 0.5],
+            ["BW_Maatlock_Overlay_POI-City-Grand_1_W_FLAT_200px.png", 0.5]
+        ],
+        "Ravine": [["BW_Maatlock_Overlay_POI-Small-POI_1_W_FLAT_200px.png", 1]],
+        "Monster nest": [["BW_Maatlock_Overlay_POI-Dungeon_1_W_FLAT_200px.png", 1]],
+        "Hermit's abode": [["BW_Maatlock_Overlay_POI-Outpost_1_W_FLAT_200px.png", 1]],
+        "Cave formation": [["BW_Maatlock_Overlay_POI-Dungeon_1_W_FLAT_200px.png", 1]],
+        "Ancient dolmens": [["BW_Maatlock_Overlay_POI-Dungeon_1_W_FLAT_200px.png", 1]],
+        "Barbarian camp": [["BW_Maatlock_Overlay_POI-Stronghold_1_W_FLAT_200px.png", 1]],
+        "Holy shrine": [["BW_Maatlock_Overlay_POI-Stronghold_1_W_FLAT_200px.png", 1]],
+        "Index": [["BW_Maatlock_Overlay_Note-Empty-Black_1_W_FLAT_200px.png", 1]]
+    }
+}

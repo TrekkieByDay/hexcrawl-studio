@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "size": [300, 346],
+        "orientation": "POINTY",
+        "directory": "./assets/sprites-maatlock-drawn-POINTY_300px/",
+        "font": "./assets/fonts/ariblk.ttf",
+        "index_font_color_black": [0, 0, 0, 255],
+        "index_font_color_white": [255, 255, 255, 255],
+        "index_type": "key",
+        "map_algorithm": "Numeric",
+        "textbox_font_size": 11,
+        "textbox_font_color_black": [0, 0, 0, 255],
+        "textbox_font_color_white": [255, 255, 255, 255],
+        "textbox_shaped_lines": [106, 120, 130],
+        "textbox_padding": 0,
+        "textbox_letter_spacing": 0
+    },
+    "indexing": {
+        "index_background_white": "BW_Maatlock_Overlay_Index-Background_1_W_POINTY_300-346.png",
+        "index_background_black": "BW_Maatlock_Overlay_Index-Background_1_W_POINTY_300-346.png"
+    },
+    "textbox": {},
+    "backfill": {
+        "backfill_white": "BW_Maatlock_Tile_Empty_1_W_POINTY_300-346.png",
+        "backfill_black": "BW_Maatlock_Tile_Empty_1_B_POINTY_300-346.png",
+        "backfill_transparent": "BW_Maatlock_Tile_Empty-Trans_1_W_POINTY_300-346.png"
+    },
+    "icons": {},
+    "tiles": {},
+    "overlay": {}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        font-family: FranklinGothic-HeavyItalic, 'Franklin Gothic Heavy';
+        font-size: 140px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M256,0v128h128L256,0ZM224,128V0H48C21.49,0,0,21.49,0,48v416c0,26.5,21.49,48,48,48h288c26.51,0,48-21.49,48-48V160h-127.1c-18.6,0-32.9-14.3-32.9-32Z"/>
+  <text class="cls-1" transform="translate(22.78 358.11)"><tspan x="0" y="0">JSON</tspan></text>
+</svg>

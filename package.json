@@ -1,0 +1,25 @@
+{
+  "name": "hexcrawl-studio",
+  "version": "0.1.0",
+  "description": "A browser-based procedural hex crawl map generator for tabletop RPGs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["hexcrawl", "hex-map", "procedural-generation", "ttrpg", "tabletop"],
+  "license": "MIT",
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "mathjs": "^13.0.3",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  }
+}
