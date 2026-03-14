@@ -42,16 +42,16 @@ Repeat for the next deliverable.
 
 | # | Deliverable | Source module(s) | Test file(s) | Status |
 |---|-------------|-----------------|--------------|--------|
-| 1 | `src/sprites/sprite.js`, `sprite-stacker.js`, `sprite-builder.js` | `src/mapSprites.js`, `src/spriteBuilder.js` | -- | TODO |
-| 2 | `src/sprites/label.js`, `text-box.js` | `src/mapSprites.js` | -- | TODO |
-| 3 | `src/sprites/probability-deck.js` | `src/mapSprites.js` | `test/sprites/probability-deck.test.js` | TODO |
-| 4 | `src/rendering/map-compositor.js` | `src/mapBuilder.js` | `test/rendering/map-compositor.test.js` | TODO |
-| 5 | `src/rendering/layer-renderer.js`, `layer-manager.js` | `src/tilemapper_display.js` | -- | TODO |
-| 6 | `src/rendering/color-layer.js` | `src/tilemapper_palette.js` | -- | TODO |
-| 7 | `src/io/config-manager.js` | `src/tilemapper_default_config.js` | `test/io/config-manager.test.js` | TODO |
-| 8 | `src/config/default-*.js` (sprites, rolltable, palette) | `src/tilemapper_default_config.js` | -- | TODO |
-| 9 | Tests for probability deck, config validation, compositor | -- | -- | TODO |
-| 10 | Minimal test HTML page | -- | -- | TODO |
+| 1 | `src/sprites/sprite.js`, `sprite-stacker.js`, `sprite-builder.js` | `src/mapSprites.js`, `src/spriteBuilder.js` | -- | DONE |
+| 2 | `src/sprites/label.js`, `text-box.js` | `src/mapSprites.js` | -- | DONE |
+| 3 | `src/sprites/probability-deck.js` | `src/mapSprites.js` | `test/sprites/probability-deck.test.js` | DONE |
+| 4 | `src/rendering/map-compositor.js` | `src/mapBuilder.js` | `test/rendering/map-compositor.test.js` | DONE |
+| 5 | `src/rendering/layer-renderer.js`, `layer-manager.js` | `src/tilemapper_display.js` | -- | DONE |
+| 6 | `src/rendering/color-layer.js` | `src/tilemapper_palette.js` | -- | DONE |
+| 7 | `src/io/config-manager.js` | `src/tilemapper_default_config.js` | `test/io/config-manager.test.js` | DONE |
+| 8 | `src/config/default-*.js` (sprites, rolltable, palette) | `src/tilemapper_default_config.js` | -- | DONE |
+| 9 | Tests for probability deck, config validation, compositor | -- | -- | DONE |
+| 10 | Minimal test HTML page | -- | -- | DONE |
 
 **Exit criteria:** Given configs and a seed, produces all layer canvases programmatically. Test page renders a visible map.
 
